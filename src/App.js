@@ -1,7 +1,18 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Header from "./Header"
+import MemeGenerator from "./MemeGenerator"
 
 function App() {
+    return (
+        <div>
+            <Header />
+            <MemeGenerator />
+        </div>
+    )
+}
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +31,6 @@ function App() {
       </header>
     </div>
   );
-}
+}*/
 
 export default App;
